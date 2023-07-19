@@ -1,0 +1,872 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.navContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.menu{
+    display: flex;
+    justify-content:right;
+}
+.logo{
+    margin-left: -40px;
+}
+.logo img{
+    height: 40px;
+    width: 84px;
+}
+.logoText {
+    position: relative;
+    top: -7px;
+    left: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.logoText span{
+    color: #FF42A5;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #3C354F;
+}
+.navIcon{
+    background-color: #0b02231f;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.navIcon span{
+    font-size: 18px;
+    color: #3C354F;
+}
+.navIcon i{
+    margin: 0px 15px;
+}
+/* menu end */
+
+/* banner start */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 670px;
+    background-image: url('images/Group 14.png');
+    background-repeat: no-repeat;
+}
+.left{
+    width: 40%;
+    
+}
+.left h3{
+    font-size: 40px;
+    font-weight:500;
+}
+.left h2{
+    font-weight: bolder;
+    font-size: 90px;
+    margin-left: -10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+      
+}
+.play i{
+    color: #FF42A5;
+    margin-right: 10px;
+}
+.download i{
+    color: #FF42A5;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.supported i{
+    color: #FF42A5;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.sign{
+    border: none;
+    padding: 10px 20px;
+    background-color: #FF42A5;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.rogue{
+    border: none;
+    padding: 10px 20px;
+    background-color: #4EC5F7;
+    color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.right img{
+    width: 620px;
+    height: 650px;
+}
+/* banner end */
+
+/* we are gamer part start*/
+.game{
+    display: flex;
+    height: 575px;
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #ff42a408;
+    padding-top: 90px;
+}
+.gameLeft{
+    width: 60%;
+}
+.gameLeft img{
+    width: 868px;
+    height: 489px;
+}
+.gameRight{
+    width: 40%;
+    margin-right: 120px;
+}
+.gameRight h2{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.g-text{
+    text-align:right;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.g-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.know{
+    border: none;
+    padding: 10px 20px;
+    background-color: #FF42A5;
+    color: white;
+    border-radius: 20px;
+    margin: 20px 0px;
+    
+}
+.p-text{
+    text-align:right;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.unleash{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 25px;
+}
+/* we are gamer part end*/
+
+/* we are funny video part start*/
+.video{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.videoText h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight:700;
+}
+.funny{
+    color: #F948B2;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.videoCard{
+    display: flex;
+    gap: 20px;
+    margin: 0px 110px;
+}
+.card img{
+    width: 300px;
+    height: 374px;
+    position: relative;
+}
+
+.watch{
+    position: relative;
+    top: -250px;
+    left: 100px;
+}
+.watch i{
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+.watch p{
+    color: #F948B2;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+.card {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.watch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(1, 1, 1);
+}
+.card-t{
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+/* vide section end */
+
+/* anytime section start */
+.anytime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    padding: 110px 10px;
+}
+
+.topImg{
+    width: 370px;
+}
+.bottomImg{
+    width: 160px;
+    position: relative;
+    top: -135px;
+    left: 280px;
+}
+.a-left{
+    margin-top: 90px;
+}
+.i-right{
+    padding: 0px 150px;
+}
+.i-right span{
+    color: #F948B2;
+}
+.i-right h2{
+    font-size: 48px;
+    padding: 0px 60px;
+}
+.i-right p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 10px 60px;
+}
+/* anytime section end */
+
+/* careers section start */
+.careerss{
+    display: flex;
+    background-color: #F948B2;
+    width: 100%;
+    height: 650px;
+}
+.c-leftt{
+    padding: 50px 90px;
+    width: 50%;
+}
+.c-leftt>h2{
+    padding: 0px 0px;
+    width: auto;
+    color: white;
+    font-weight: 700;
+}
+.c-leftt>p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.c-img img{
+    width: 100%;
+    height: 650px;
+}
+.c-detailss{
+    display: flex;
+    justify-content: space-between;
+}
+.detailsLeft{
+    width: 50%;
+}
+.detailsLeft>p{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.detailsRight>ul>li{
+    list-style: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.c-button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #FF42A5;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* careers section end */
+
+/* feature start */
+.feature{
+    padding: 50px;
+}
+.gameFeature{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.f-content{
+    width: 246px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.f-text{
+    margin-left: 15px;
+    font-weight: 500;
+    color: #0B0223;
+}
+.f-content:hover{
+    border: 2px solid #F948B2;
+    border-radius: 45px;
+}
+.f-content:hover .f-text{
+    color: #F948B2;
+}
+
+/* feature end */
+
+/* footer start */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0B0223;
+    padding: 50px 10px;
+}
+.footerLogo>span{
+    color: #fff;
+} 
+.footerMenu>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footerMenu>ul>li{
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.footerMenu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footerIcon>i{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.secondary>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.secondary>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.copyright>p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+/* feature end */
+
+/* responsive  small device */
+@media screen and (max-width:576px) {
+   nav{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 220px;
+   }
+   .logo {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+   .navContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+   }
+   .banner{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    }
+   .left{
+    width: 50%;  
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
+   .left h3{
+    font-size: 25px;
+    font-weight:500;
+    text-align: center;
+ }
+    .left h2{
+        font-size: 43px;
+        text-align: center;
+    }
+    .right img{
+        width: 100%;
+        height: 550px;
+    }
+    .play {
+        text-align: center;
+        margin-left: -12px;
+    }
+    .download{
+        text-align: center;
+    }
+   .supported{
+        text-align: center;
+    }
+    .play span{
+        font-size: 12px;
+    }
+    .download{
+        margin-left: -49px;
+    }
+    .download span{
+        font-size: 12px;
+    }
+    .supported{
+        margin-left: 64px;
+    }
+    .supported span{
+        font-size: 12px;
+    }
+    .play i{
+        font-size: 10px;
+    }
+    .download i{
+        font-size: 10px;
+    }   
+  .supported i{
+        font-size: 10px;
+    }
+  
+    .bannerInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .button{
+        margin-left: 54px;
+    }
+    .sign{
+        padding: 8px 16px;
+        background-color: #FF42A5;
+        color: white;
+    }
+    .rogue{
+        padding: 8px 16px;
+        background-color: #4EC5F7;
+        color: white;
+    }
+    .game{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .gameLeft{
+        width: auto;
+    }
+    .gameLeft img{
+       width: 500px;
+       
+    }
+    .gameRight{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 99px;
+            padding: 0px 43px;
+        }
+    .gameRight h2{
+        text-align: center;
+        font-size: 28px;
+    }
+    .g-text{
+        text-align:center;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    .videoText h2{
+        text-align: center;
+        font-size: 45px;
+        font-weight:700;
+    }
+    .videoText h2{
+        font-size: 25px;
+    }
+    .text{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .videoCard{
+        display: flex;
+        flex-direction: column;
+        margin-left: 135px;
+    } 
+    .card-t{
+        font-size: 14px;
+        text-align: center;
+    }  
+    .anytime{
+        display: flex;
+        flex-direction: column;
+    }
+    .topImg {
+        width: 320px;
+        margin-left: -35px;
+    }
+    .bottomImg{
+        width: 140px;
+        position: relative;
+        top: -135px;
+        left: 220px;
+    }
+    .i-right{
+        padding: 0px 0px;
+    }
+    .i-right h2 {
+        font-size: 21px;
+        padding: 0px 0px;
+        text-align: center;
+        margin-left: -146px;
+    }
+    .i-right p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 29px;
+        padding: 16px 0px;
+        margin-left: -78px;
+    }
+    .careerss{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .c-leftt{
+        padding: 10px 100px;
+        width: auto;
+    }
+    .c-leftt>h2{
+        padding: 0px 0px;
+        width: auto;
+        color: white;
+        font-weight: 700;
+    }
+    .c-leftt>p{
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 300;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .c-img img{
+        width: 100%;
+        height: auto;
+    }
+    .detailsLeft>p{
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .detailsRight>ul>li{
+        list-style: none;
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .c-button{
+        margin-bottom: 30px;
+    }
+    .f-content{
+        width: 180px;
+        margin-right: 20px;
+    }
+    .f-text{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #0B0223;
+    }
+    footer{
+        padding: 50px 150px;
+    }
+    .footerLogo>span{
+        color: #fff;
+        font-size: 30px;
+    } 
+    .footerLogo img{
+        height: 35px;
+        width: 64px;
+    }
+    .footerLogo{
+        margin-bottom: 15px;
+    }
+    .footerMenu>ul>li{
+        list-style: none;
+        margin: 0px 0px;
+    }
+    
+    .footerMenu>ul>li>a{
+        font-size: 14px;
+    }
+    .secondary>ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .secondary>ul>li>a{
+        font-size: 10px;
+    }
+    .footerMenu{
+        margin-left: 30px;
+    }
+    .footerIcon{
+        margin-left: 0px;
+    }
+    .footerIcon i{
+        font-size: 16px;
+    }
+    .secondary{
+        margin-left: 30px;
+    }
+  .copyright{
+        margin-left: 30px;
+    }
+    .copyright p{
+        font-size: 10px;
+    }
+}
+/* responsive  medium device */
+@media screen and (min-width:576px) and (max-width:992px){
+    nav{
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .right img{
+        width: 470px;
+        height: auto;
+        margin-left: 30px;
+    }
+    .videoCard{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+       margin-left: 220px;
+    }
+    .left{
+        width: auto;
+        padding-left: 50px;
+    }
+    .left h3{
+        font-size: 30px;
+    }
+    .left h2{
+        font-size: 65px;
+        margin-bottom: 15px;
+    }
+    .download{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .supported{
+        margin-bottom: 15px;
+    } 
+   .game{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .gameLeft{
+        width: auto;
+        margin: 0 auto;
+    }
+    .gameLeft img{
+        width: 568px;
+        height: 500px;
+    }
+    .gameRight{
+        width: auto;
+        margin-right: 0px;
+    }
+    .gameRight h2{
+        text-align: center;
+        font-size: 35px;
+    }
+    .g-text{
+        text-align:center;
+        font-size: 16px;
+        padding: 0px 140px;
+    }
+    .g-button{
+        display: flex;
+        justify-content: center;
+    }
+    .p-text{
+        text-align:center;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .unleash{
+        font-weight: 700;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .videoText h2{
+        text-align: center;
+        font-size: 35px;
+        margin-left: 90px;
+    }
+    .text{
+        margin-left: 90px;
+    }
+    .anytime{
+        margin-left: 30px;
+    }
+    .i-right{
+        padding: 0px 50px;
+    }
+    .i-right h2{
+        font-size: 35px;
+        padding: 0px 50px;
+    }
+    .i-right p{
+        font-size: 16px;
+        font-weight: 200;
+    }
+    .c-leftt{
+        width: auto;
+    }
+    .c-leftt>h2{
+        font-size: 30px;
+    }
+    .c-leftt>p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .c-img img{
+        width: 410px;
+        height: 650px;
+    }
+}
